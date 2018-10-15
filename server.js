@@ -10,7 +10,7 @@ var techniqueService = express();
 techniqueService.use(bodyParser.json());
 
 techniqueRoutes(techniqueService);  
-techniqueService.listen(8081, function () {
-  console.log('Aikido Technique API listening on port 8081!');
+techniqueService.listen(8080, function () {
+  console.log('Aikido Technique API listening on port 8080!');
 });
 
